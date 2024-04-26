@@ -339,8 +339,8 @@ def render_contact_page():
             
         if col4.button("Contact the Officer Supervisor", key="officer_supervisor"):
             st.markdown(f"Click [here](mailto:{preferrer_email}) to send an email to your Officer Supervisor.", unsafe_allow_html=True)
-            
-         if col5.button("Contact the Officer Supervisor", key="Freshman Rep"):
+        
+        if col5.button("Contact the Officer Supervisor", key="Freshman Rep"):
             st.markdown(f"Click [here](mailto:{prefecody_email}) to send an email to your Officer Supervisor.", unsafe_allow_html=True)
             
     page_bg_img = """
