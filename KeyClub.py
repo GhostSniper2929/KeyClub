@@ -324,6 +324,7 @@ def render_contact_page():
         preferref_email = "domilowe123@gmail.com"  # Change this to your preferred email
         preferree_email = "lindsaynguyen9306@gmail.com"  # Change this to your preferred email
         preferrer_email = "averyr121@gmail.com"  # Change this to your preferred email
+        prefecody_email = "codng0639@gmail.com"
         
         col1, col2, col3, col4 = st.columns(4)
         
@@ -338,6 +339,9 @@ def render_contact_page():
             
         if col4.button("Contact the Officer Supervisor", key="officer_supervisor"):
             st.markdown(f"Click [here](mailto:{preferrer_email}) to send an email to your Officer Supervisor.", unsafe_allow_html=True)
+            
+         if col5.button("Contact the Officer Supervisor", key="Freshman Rep"):
+            st.markdown(f"Click [here](mailto:{prefecody_email}) to send an email to your Officer Supervisor.", unsafe_allow_html=True)
             
     page_bg_img = """
     <style>
