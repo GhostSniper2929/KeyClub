@@ -173,6 +173,7 @@ def render_about_page():
     }
     </style>
     """
+    
 
     st.markdown(page_bg_img, unsafe_allow_html=True)
     features = {
@@ -202,6 +203,14 @@ def render_about_page():
     )
 
     st.write("Key Club DW is a service organization for high school students, which operates under school regulations and draws its membership from the student body. Key Club differs from other organizations in many ways. Key Club is unique because it is sponsored by a local Kiwanis Club, composed of the leading business and professional people of the community. Key Club's objective is the development of initiative, leadership ability, and good citizenship practices. Key Club functions not only on the local level but on a district and international level. This highly developed structure provides programs, literature, and the opportunity to relate to teenagers from countries all around the world. Key Club is the largest high school service organization of its kind in the world! We are Key Club, and you can be too!")
+    st.("---")
+    st.header("Key Club Pledge")
+    st.subheader("I pledge, on my honor,")
+    st.subheader("to uphold the Objects of Key Club International;")
+    st.subheader("to build my home, school and community;")
+    st.subheader("to serve my nation and world;")
+    st.subheader("and combat all forces which tend to undermine these institutions.")
+
 
 def render_join_page():
     st.markdown("<h1 style='text-align: center; color: white;'>Join</h1>", unsafe_allow_html=True)
