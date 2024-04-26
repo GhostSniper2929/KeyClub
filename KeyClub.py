@@ -201,7 +201,7 @@ def render_about_page():
         f'<a href={STRIPE_CHECKOUT} class="button">Donate To Key-Club💖</a>',
         unsafe_allow_html=True,
     )
-
+    st.write("---")
     st.write("Key Club DW is a service organization for high school students, which operates under school regulations and draws its membership from the student body. Key Club differs from other organizations in many ways. Key Club is unique because it is sponsored by a local Kiwanis Club, composed of the leading business and professional people of the community. Key Club's objective is the development of initiative, leadership ability, and good citizenship practices. Key Club functions not only on the local level but on a district and international level. This highly developed structure provides programs, literature, and the opportunity to relate to teenagers from countries all around the world. Key Club is the largest high school service organization of its kind in the world! We are Key Club, and you can be too!")
     st.write("---")
     st.header("Key Club Pledge")
