@@ -225,11 +225,11 @@ def render_join_page():
 
 def render_games_page():
     tasks = [
-    "Organize a fundraising event",
-    "Volunteer at a local shelter",
-    "Collect donations for a food drive",
-    "Plan a community cleanup day",
-    "Create care packages for the elderly",
+    "Take a group photo at a social",
+    "Volunteer at least 5 hours",
+    "Get a picture with an officer at an event",
+    "Get a picture with one of the event coordinators at a volunteering event",
+    "Complete one of the meeting activities",
 ]
     completed_tasks = []
     st.title("Key Club Quest")
