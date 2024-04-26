@@ -326,7 +326,7 @@ def render_contact_page():
         preferrer_email = "averyr121@gmail.com"  # Change this to your preferred email
         prefecody_email = "codng0639@gmail.com"
         
-        col1, col2, col3, col4 = st.columns(4)
+        col1, col2, col3, col4, col5 = st.columns(5)
         
         if col1.button("Contact the President", key="president"):
             st.markdown(f"Click [here](mailto:{preferred_email}) to send an email to your President.", unsafe_allow_html=True)
